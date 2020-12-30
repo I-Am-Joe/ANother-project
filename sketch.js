@@ -15,7 +15,7 @@ function preload()
 
 function setup() {
 	createCanvas(800, 700);
-	Roofs=new Roof(300,600,450,100);
+	Roofs=new Ground(300,600,450,100);
 	bobObject1= new Bob(100,400);
 	bobObject2=new Bob(120,400);
 	bobObject3=new Bob(140,400);
